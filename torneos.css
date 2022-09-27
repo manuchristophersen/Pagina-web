@@ -1,11 +1,129 @@
-nav{
+.menu{
     background-color: antiquewhite;
+    margin: 0.2cm;
+    background-color: antiquewhite;
+    display: flex;
+    width: 100%;
 }
 
 div video{
     
 }
 
-div{
-    background-image: url(https://thumbs.dreamstime.com/b/textura-de-fondo-natural-pasto-verde-cerrado-c%C3%A9sped-para-el-173354552.jpg);
+.cuerpo{
+    /*background-image: url(https://thumbs.dreamstime.com/b/textura-de-fondo-natural-pasto-verde-cerrado-c%C3%A9sped-para-el-173354552.jpg);*/
+    background-image: url(https://us.123rf.com/450wm/praewpailin/praewpailin1903/praewpailin190300225/121373189-patr%C3%B3n-de-hierba-verde-y-textura-de-fondo-imagen-de-primer-plano-.jpg?ver=6);
+    /*background-repeat: no-repeat;
+    size: 1000px;*/
+}
+
+.text-muted {
+    color: white;
+}
+
+#remeras{
+    width: 20%;
+    align-items: center;
+}
+
+#carne{
+    width: 36%;
+    align-items: center;
+}
+
+#cervezas{
+    width: 27%;
+    align-content: center;
+}
+
+.card{
+    /*background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPEhUPEhIVFRUVFxcVFRUVFxcVFRUVFRgXFhUVFRUYHSggGBolHRUXITEhJSkrLi4uGB8zODMtNygtLisBCgoKDQ0NDg0NDi0ZFRktKysrKy0rKysrLSstKysrKzc3Lis3KzIrNysrKysrKys3KysrKysrKy0uKzcrMjIrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQMCBwT/xAAeEAEBAAMBAQADAQAAAAAAAAAAAQIR8DFBcYGxIf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9r0mlQBdGgEFARUUEBQQFBBQEsNACCgENACLoARUqgipVAiABsCiAaQFTalB9AArEEBQAQAAUBFAAADYACBQWoqAQAAAACgAoIB39BIKCIKAlFQG4sBWKLvu7/ADu74ACQUAAAAAKAAACKgAAKioAKgAVQRUUEAAlSqAIqCKCUG8CArJFL3d4AAAAAEIAAAAAAAigCLUBUUBFEBagoIaAADYAAgUAKBYDaBiCsgAKEAAAAAAAAAAAAQFqKgKCAKAAACCgIKAIABAQABtiEBWQAAAAAAEAAAoAAAAAFEAURdAAAENAAaAAAQAAFBDQA2x8DDxAZhACAAB3d8AAAAAAAAAAAQAFRQEFIABARQBFAEigCRUgClEBtj4Jh4AzKd3fEBQ7u+gAAAAAEAoKCAAbA2CCgIbUAiKAAkBQAAAAARU/SggpQaYeBh4AzgAAACKAAAAABfyAAAAACAKIAoAENAAAAAAEARUUBFgDvDwMQHECAAQAAAAAAAAAAAAAAAAAAASKAAAigCKAIqKIACu8fAxAZwJ3d6AokAUACAAoIBQUEBQQAAABFAAAAIAAAAAAAAAEAdSiAiQAAAUFAQUBBQEAAFAQAAAAAA0AAoCCgIKAmhQHK7ABNqAbAEf/9k=);*/
+}
+
+
+.card-body{
+    /*background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPEhUPEhIVFRUVFxcVFRUVFxcVFRUVFRgXFhUVFRUYHSggGBolHRUXITEhJSkrLi4uGB8zODMtNygtLisBCgoKDQ0NDg0NDi0ZFRktKysrKy0rKysrLSstKysrKzc3Lis3KzIrNysrKysrKys3KysrKysrKy0uKzcrMjIrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQMCBwT/xAAeEAEBAAMBAQADAQAAAAAAAAAAAQIR8DFBcYGxIf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9r0mlQBdGgEFARUUEBQQFBBQEsNACCgENACLoARUqgipVAiABsCiAaQFTalB9AArEEBQAQAAUBFAAADYACBQWoqAQAAAACgAoIB39BIKCIKAlFQG4sBWKLvu7/ADu74ACQUAAAAAKAAACKgAAKioAKgAVQRUUEAAlSqAIqCKCUG8CArJFL3d4AAAAAEIAAAAAAAigCLUBUUBFEBagoIaAADYAAgUAKBYDaBiCsgAKEAAAAAAAAAAAAQFqKgKCAKAAACCgIKAIABAQABtiEBWQAAAAAAEAAAoAAAAAFEAURdAAAENAAaAAAQAAFBDQA2x8DDxAZhACAAB3d8AAAAAAAAAAAQAFRQEFIABARQBFAEigCRUgClEBtj4Jh4AzKd3fEBQ7u+gAAAAAEAoKCAAbA2CCgIbUAiKAAkBQAAAAARU/SggpQaYeBh4AzgAAACKAAAAABfyAAAAACAKIAoAENAAAAAAEARUUBFgDvDwMQHECAAQAAAAAAAAAAAAAAAAAAASKAAAigCKAIqKIACu8fAxAZwJ3d6AokAUACAAoIBQUEBQQAAABFAAAAIAAAAAAAAAEAdSiAiQAAAUFAQUBBQEAAFAQAAAAAA0AAoCCgIKAmhQHK7ABNqAbAEf/9k=);*/
+}
+
+.texto{
+    color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#titulos{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#torneosdefutbol{
+    color:black;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.card-body{
+    background-color:orange
+    
+    }
+
+.text-muted{
+    background-color: orange;
+}
+
+.letra{
+    background-color: orange;
+}
+
+#birras{
+    background-color: orange;
+}
+
+#casacas{
+    background-color: orange;
+}
+
+#asado{
+    background-color: orange;
+}
+
+.card-text{
+    color: white;
+}
+
+footer{
+    background-image: url(https://us.123rf.com/450wm/praewpailin/praewpailin1903/praewpailin190300225/121373189-patr%C3%B3n-de-hierba-verde-y-textura-de-fondo-imagen-de-primer-plano-.jpg?ver=6);
+}
+
+.buttom{
+    display: flex;
+    align-self: flex-end;
+    width: 50px;
+    text-decoration: none;
+}
+
+nav ul{
+    background-color: antiquewhite;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+nav li{
+    margin: 0.2cm;
+    list-style: none;
+    font-size: large;
+    
 }

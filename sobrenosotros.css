@@ -1,7 +1,60 @@
-nav{
+.menu{
     background-color: antiquewhite;
+    margin: 0.2cm;
+    background-color: antiquewhite;
+    display: flex;
+    width: 100%;
+}
+
+body{
+    background-image: url(https://us.123rf.com/450wm/praewpailin/praewpailin1903/praewpailin190300225/121373189-patr%C3%B3n-de-hierba-verde-y-textura-de-fondo-imagen-de-primer-plano-.jpg?ver=6);
+ }
+
+.icon{
+    width: 600em;
+    color: white;
+}
+
+.nosotros{
+    text-align: center;
+    
+    
+}
+
+.marcas{
+    text-align: center;
 }
 
 div{
-    background-image: url(https://thumbs.dreamstime.com/b/textura-de-fondo-natural-pasto-verde-cerrado-c%C3%A9sped-para-el-173354552.jpg);
+    color: whitesmoke;
+}
+
+h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTkixKHzY5ERjAVgp1hvz6-GjVrxQIisfCg&usqp=CAU);
+}
+
+.buttom{
+    display: flex;
+    align-self: flex-end;
+    width: 50px;
+    text-decoration: none;
+}
+
+nav ul{
+    background-color: antiquewhite;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+nav li{
+    margin: 0.2cm;
+    list-style: none;
+    font-size: large;
+    
 }
